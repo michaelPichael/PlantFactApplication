@@ -11,10 +11,10 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Plant {
 
-    public String name;
-    public Integer id;
-    public String description;
-    public String origin;
-    public String soilType;
-    public String hardinessZone;
+    private String name;
+    private Integer id;
+    private String description;
+    private String origin;
+    private String soilType;
+    private String hardinessZone;
 }
